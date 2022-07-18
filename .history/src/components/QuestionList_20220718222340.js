@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+nabaggjimport React, { useEffect, useState } from "react";
 import QuestionItem from "./QuestionItem";
 
 function QuestionList() {
@@ -58,9 +58,7 @@ function QuestionList() {
   );
 }
 
-export default QuestionList;
-/*
-import React, { useEffect, useState } from "react";
+export default QuestionList;import React, { useEffect, useState } from "react";
 import QuestionItem from "./QuestionItem";
 
 function QuestionList() {
@@ -120,5 +118,4 @@ function QuestionList() {
   );
 }
 
-export default QuestionList;
-*/
+export default QuestionList;j
