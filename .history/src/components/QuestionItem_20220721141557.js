@@ -2,17 +2,17 @@ import React from "react";
 
 function QuestionItem({ question, onDeleteClick, onAnswerChange }) {
   const { id, prompt, answers, correctIndex } = question;
-// mapping all our answer
+// map
   const options = answers.map((answer, index) => (
     <option key={index} value={index}>
       {answer}
     </option>
   ));
-// create handleDeleteClick function
+
   function handleDeleteClick() {
     onDeleteClick(id);
   }
-// create a answer function where it track the event done
+
   function handleAnswerChange(event) {
     onAnswerChange(id, parseInt(event.target.value));
   }

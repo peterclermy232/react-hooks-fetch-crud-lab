@@ -62,7 +62,7 @@ export default QuestionList;
 
 
 
-// this another useful method to use 
+// this another usefull method to use 
 /*
 import React, { useEffect, useState } from "react";
 import QuestionItem from "./QuestionItem";

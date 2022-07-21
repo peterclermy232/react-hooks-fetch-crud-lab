@@ -12,7 +12,7 @@ function QuestionItem({ question, onDeleteClick, onAnswerChange }) {
   function handleDeleteClick() {
     onDeleteClick(id);
   }
-// create a answer function where it track the event done
+// 
   function handleAnswerChange(event) {
     onAnswerChange(id, parseInt(event.target.value));
   }

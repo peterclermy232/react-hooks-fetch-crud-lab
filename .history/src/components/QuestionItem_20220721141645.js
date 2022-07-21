@@ -8,11 +8,11 @@ function QuestionItem({ question, onDeleteClick, onAnswerChange }) {
       {answer}
     </option>
   ));
-// create handleDeleteClick function
+// create handleDeletelick function
   function handleDeleteClick() {
     onDeleteClick(id);
   }
-// create a answer function where it track the event done
+
   function handleAnswerChange(event) {
     onAnswerChange(id, parseInt(event.target.value));
   }
